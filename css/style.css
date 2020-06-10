@@ -13,7 +13,7 @@
 
 .container {
     width: 80%;
-    max-width: 2000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ h1 {
     z-index: 5
 }
 
-.text-banner button {
+.big-button {
     padding: 17px 15px;
 }
 
@@ -178,4 +178,44 @@ hr {
 .green-text {
     color: #7cbb02;
 
+}
+
+.bottom-box {
+    width: 50%;
+    float: left;
+}
+
+.slide-container.right {
+    margin-right: 95px;
+    margin-top: 40px;
+}
+
+.slide-container.right a {
+    color: #5586bc;
+}
+
+.footer-title {
+    font-size: 24px;
+    margin: 49px 0;
+    float: left;
+}
+
+footer .green {
+    float: right;
+    margin: 40px 0;
+}
+
+.dropdown{
+    color: #808080;
+    border-bottom: 1px solid #808080;
+    float: right;
+    width: 116px;
+    margin: 53px 20px;
+    cursor: pointer;
+}
+
+footer span {
+    color: #808080;
+    float: right;
+    margin: 53px 0;
 }
