@@ -103,7 +103,6 @@ h1 {
 }
 
 .blue .banner img {
-    /* object-fit: contain; */
     float: right;
     position: absolute;
     bottom: 0;
@@ -134,20 +133,14 @@ h1 {
 
 .grigio{
     background-color: #d3d3d3;
-    /* DA CANCELLARE */
-    /* height: 100px; */
 }
 
 .bianco{
     background-color: white;
-    /* DA CANCELLARE */
-    /* height: 400px; */
-
 }
 
 .box {
     width: 33.3333%;
-    /* height: 100%; */
     border: 1px solid white;
     float: left;
     text-align: center;
@@ -205,17 +198,11 @@ footer .green {
     margin: 40px 0;
 }
 
-.dropdown{
-    color: #808080;
-    border-bottom: 1px solid #808080;
-    float: right;
-    width: 116px;
-    margin: 53px 20px;
-    cursor: pointer;
-}
 
-footer span {
-    color: #808080;
-    float: right;
-    margin: 53px 0;
+
+.help {
+    position:fixed;
+    bottom: 0;
+    right: 10%;
+    border-radius: 5px 5px 0 0;
 }
